@@ -1,0 +1,18 @@
+<div
+  class="container"
+  [ngStyle]="{ width: frame.width + 'px', height: frame.height + 'px' }"
+>
+  <div
+    *ngFor="let image of imageParameters"
+    [ngStyle]="image.subContainerStyle"
+    class="img-wrap"
+    (click)="imageSelected.emit(image.path)"
+  >
+    <img [src]="image.path" [ngStyle]="image.imageStyle" class="image" />
+    <div class="img-on-hover" *ngIf="showDescriptionHover">
+      <p class="img-description no-select">
+        {{ image.imageDescription }}
+      </p>
+    </div>
+  </div>
+</div>

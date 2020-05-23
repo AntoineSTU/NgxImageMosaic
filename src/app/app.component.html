@@ -1,0 +1,12 @@
+<div class="container">
+  <h1>Test</h1>
+
+  <ngx-image-mosaic
+    [frame]="frame"
+    [inputImageParametersList]="inputImageParametersList"
+    [options]="options"
+    (imageSelected)="showPath($event)"
+  ></ngx-image-mosaic>
+
+  <p>Image selected path: {{ pathImageSelected }}</p>
+</div>

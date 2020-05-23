@@ -1,0 +1,11 @@
+{
+  "name": "ngx-image-mosaic",
+  "version": "0.0.1",
+  "description": "This angular library provides a mosaic view of a set of images, with shaping options.",
+  "author": "Antoine STUTZ",
+  "peerDependencies": {
+    "@angular/common": "^9.1.7",
+    "@angular/core": "^9.1.7",
+    "tslib": "^1.10.0"
+  }
+}

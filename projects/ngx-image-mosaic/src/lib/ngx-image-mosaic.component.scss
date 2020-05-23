@@ -1,0 +1,60 @@
+.container {
+  position: relative;
+}
+
+.image {
+  position: absolute;
+  height: auto;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.img-wrap {
+  position: absolute;
+  overflow: hidden;
+}
+
+.img-description {
+  color: #fff;
+  font-size: small;
+  padding: 3px;
+  text-align: center;
+}
+
+.no-select {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
+
+.img-on-hover {
+  /* position */
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+
+  /* visibility & color */
+  background: #00000080;
+  visibility: hidden;
+  opacity: 0;
+
+  /* position of description */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* transition effect */
+  transition: opacity 0.2s, visibility 0.2s;
+}
+
+.img-wrap:hover .img-on-hover {
+  visibility: visible;
+  opacity: 1;
+}
