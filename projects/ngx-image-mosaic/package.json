@@ -1,8 +1,29 @@
 {
   "name": "ngx-image-mosaic",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "This angular library provides a mosaic view of a set of images, with shaping options.",
-  "author": "Antoine STUTZ",
+  "author": {
+    "name": "Antoine STUTZ",
+    "email": "stutz.antoine@orange.fr"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AntoineSTU/NgxImageMosaic.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AntoineSTU/NgxImageMosaic/issues"
+  },
+  "homepage": "https://github.com/AntoineSTU/NgxImageMosaic#readme",
+  "keywords": [
+    "ngx",
+    "angular",
+    "javascript",
+    "typescript",
+    "image",
+    "mosaic",
+    "gallery"
+  ],
+  "license": "MIT",
   "peerDependencies": {
     "@angular/common": "^9.1.7",
     "@angular/core": "^9.1.7",
